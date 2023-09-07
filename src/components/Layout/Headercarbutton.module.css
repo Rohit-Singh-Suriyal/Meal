@@ -1,0 +1,56 @@
+.box{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    
+}
+.btn{
+    padding: 10px 11px 7px 14px;
+    margin: 8px 74px 8px 0px;
+    background-color: #5e0f0f;
+    border-radius: 10px;
+    display: flex;
+}
+.btn:hover{
+    background-color: rgb(211, 204, 146);
+}
+.btn img{
+    height:61px;
+    border-radius:10px;
+}
+.btn .text{
+    margin: 24px 0px 0px 11px;
+    color: white;
+}
+.btn .badge{
+    
+    border-radius: 16px;
+    background-color: rgb(194, 113, 20);
+    border: 2px solid black;
+    margin: 16px 0px 0px 9px;
+    padding: 5px 12px;
+
+}
+
+.bump {
+    animation: bump 300ms ease-out;
+  }
+  
+  @keyframes bump {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(0.9);
+    }
+    30% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

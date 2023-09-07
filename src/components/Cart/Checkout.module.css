@@ -1,0 +1,39 @@
+label{
+    
+    flex-basis:30%;
+}
+.check{
+    display: flex;
+    margin:20px;
+    
+}
+.check input {
+    margin: 0px 7px;
+    width: 100%;
+    margin-right: 61px;
+    padding:5px;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+.low{
+    margin: 29px 0px 0px 130px;
+}
+.para{
+    margin-left:143px;
+    color:red;
+}
+.invalid label{
+    color:rgb(243, 123, 123);
+
+}
+.invalid input{
+    background-color: rgb(255 167 167);
+}
+
+
+
+
+
+
+
+

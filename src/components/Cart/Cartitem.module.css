@@ -1,0 +1,36 @@
+h1{
+
+font-size:25px;
+font-weight:bold;
+padding:12px 0px 0px 0px;
+
+}
+.box{
+    display:flex;
+}
+
+.price{
+    padding:18px 0px;
+    margin:0px 0px;
+    color:rgb(202, 109, 32)
+}
+.amount{
+    padding: 18px 74px;
+    margin: 0px 0px;
+}
+
+
+hr{
+    height:3px;
+    background-color:rgb(183 80 11);
+}
+.newb{
+    color: black;
+    font-size: 25px;
+    padding: 0px 24px;
+}
+.butttoncontainer{
+    display:flex;
+    justify-content: flex-end;
+
+}

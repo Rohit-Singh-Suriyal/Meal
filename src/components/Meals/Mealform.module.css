@@ -1,0 +1,22 @@
+.form{
+    display:flex;
+
+}
+
+
+button{
+    padding: 6px 29px;
+    margin: 12px 2px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 21px;
+    background-color: #912e57;
+    color: white;
+}
+button:hover{
+    background-color: rgb(221, 136, 185);
+}
+.buttoncontainer{
+    display:flex;
+    justify-content: flex-end;
+}
